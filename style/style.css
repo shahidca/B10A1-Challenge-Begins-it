@@ -177,11 +177,12 @@ color: #0D1321;
     border: 2px solid red;
     margin: 0 auto;margin-top: 80px;
   }
-  #box{
+  .box{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
  
   }
   .box-1{
@@ -209,6 +210,10 @@ color: #0D1321;
   }
   .bg-color-3{
     background-color: #f6f1d7;
+  }
+  /* my next target style sart here */
+  .my-next-target{
+
   }
   
 
