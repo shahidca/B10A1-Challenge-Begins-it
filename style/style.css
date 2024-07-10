@@ -173,8 +173,7 @@ color: #0D1321;
   /* <!-- main section My Current Target style start here --> */
   .my-current-target{
     width: 1140px;
-    height: 1377px;
-    border: 2px solid red;
+    height: 840px;
     margin: 0 auto;margin-top: 80px;
   }
   .box{
@@ -213,8 +212,29 @@ color: #0D1321;
   }
   /* my next target style sart here */
   .my-next-target{
-
+margin-top: 80px;
   }
-  
-
-
+  /* .h-04{
+    font-size: 24px;
+    font-weight: 900;
+    color: #0D1321;
+    display: block;
+  }
+  .img-size{
+    width: 94.78px;
+    height: 108px;
+  }
+  .block  h4{
+    display: block;
+  } */
+/* main last section style start here */
+ .last-section{
+width: 1140px;
+height: 313px;
+border: 2px solid red;
+margin: 0 auto;
+background-image: url(../assets/handshake.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+ }
