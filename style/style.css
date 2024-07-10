@@ -8,15 +8,123 @@ body{
     width: 1440px;
 }
 .paragrap-text{
-
+text-align: center;
+font-size: 16px;
+color: #0D1321;
 }
 .heading-h2{
+    font-size: 32px;
+    font-weight: 900;
+    color: #0D1321;
+
+}
+.heading-h3{
+    font-size: 24px;
+    font-weight: 800;
+    color: #0D1321;
+    line-height: 36px;
+    width: 390px;
+
+}
+.learn-btn{
+    width: 140px;
+    height: 44px;
+    padding: 12px 20px;
+    color: #0D1321;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 /* heading part style start here */
+
 .banner{
     height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+.reading-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reading-img img{
+    width: 240.28px;
+    height: 240px;
+}
+.reading-img h1{
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 68px;
+  color: #0D1321;
+  width: 998px;
+}
+.heading-h1{
+    text-align: center;
+}
+.reading-img p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0D1321;
+    width: 552px;
+    margin-top: 0px;
+  }
+  .reading-img button{
+   padding: 21px 24px;
+   background-color: #0D1321;
+   color: #FFFFFF;
+   border-radius: 8px;
+   font-size: 20px;
+   font-weight: 700;
+  }
+  /* heading part style start here */
+
+  /* main section ar first part style start here */
+  .first-main-section{
+    width: 1140px;
+    height: 1393px;
     border: 2px solid red;
     margin: 0 auto;
-    background-image: url(../assets/);
-}
+   text-align: center;
+
+  }
+  .main-section-ar-child{
+    width: 946px;
+    height: 1233px;
+    border: 2px solid red;
+    margin: 0 auto;
+   margin-top: 80px;
+  }
+  .heading-description p{
+    line-height: 26px;
+  }
+  .section-box{
+    height:336px ;
+    width: 946px;
+    border: 2px solid rgb(0, 255, 145);
+  }
+  .section-box-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .para{
+    width: 547px;
+    text-align: left;
+  }
+  .sub-section{
+   text-align: left;
+   margin-top: 20px;
+  }
+  .sub-box-img{
+    width: 274.17px;
+    height: 240px;
+    margin-top: 60px;
+  }
