@@ -238,3 +238,49 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
  }
+ #para{
+  font-size: 32px;
+  font-weight: 800;
+  color: #FFFFFF;
+ }
+ .para-p{
+text-align: center;
+ }
+ small{
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+ }
+ .last-para{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ input[type=text]{
+  width: 548px;
+  height: 57px;
+  background-color: #FFFFFF;
+  padding: 5px 10px ;
+  border-radius: 14px
+  
+ }
+ .text-input{
+  font-size: 16px;
+  font-weight: 400;
+  color: #0D1321;
+ }
+ input[type=submit]{
+  width: 130px;
+  height: 64px;
+  background-color: #FFFFFF;
+  padding: 8px 8px ;
+  border-radius: 8px
+  
+  
+ }
+ .submit{
+  color: #0D1321;
+  font-weight: 800;
+  font-size: 20px;
+ }
